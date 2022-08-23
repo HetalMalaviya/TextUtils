@@ -33,12 +33,6 @@ export default function About(props) {
 
   return (
     <>
-      {" "}
-      <Navbar
-        title="Textutils"
-        mode={props.mode}
-        enablemode={props.enablemode}
-      ></Navbar>
       <div
         className="container"
         style={{ color: props.mode === "dark" ? "white" : "#6aa392" }}
